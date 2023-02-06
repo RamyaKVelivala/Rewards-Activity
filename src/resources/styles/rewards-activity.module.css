@@ -1,0 +1,57 @@
+.activity {
+    padding: 20px;
+}
+
+.ddSection {
+    margin-left: 280px;
+}
+
+.customerLbl {
+    text-align: left;
+    display: table-cell;
+}
+
+.monthLbl {
+    padding: 20px 45px 0px 0px;
+    text-align: left;
+    margin-top: 36px;
+}
+
+.calcBtnDiv {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.calcBtn {
+    background-color: #004E87;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.rewardsTxt {
+    padding: 20px;
+}
+
+.monthTxt,
+.totalTxt {
+    padding: 10px;
+    border: 1px solid #0078cc;
+    background-color: #0078cc;
+    color: white;
+    margin-top: 10px;
+    margin-left: 225px;
+    width: 540px;
+    border-radius: 12px;
+}
+
+.ddSection:after {
+    display: table;
+}
+
+.row {
+    display: table-row;
+}
