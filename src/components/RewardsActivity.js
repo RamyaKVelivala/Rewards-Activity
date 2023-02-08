@@ -47,8 +47,8 @@ const RewardsActivity = (props) => {
         })
     }
 
-    return ((!!props.transactionsList && props.transactionsList.length > 0) &&
-        <div className={styles.activity} data-testid="rewardsActivity">
+    return ((!!props.transactionsList && props.transactionsList.length > 0) ?
+        (<div className={styles.activity} data-testid="rewardsActivity">
             <div className={styles.ddSection}>
                 <div className={styles.row}>
                     <div className={styles.customerLbl}>Select Customer</div>
@@ -96,7 +96,9 @@ const RewardsActivity = (props) => {
                     />
                 )
             }
-        </div>
+        </div>) : (
+            <div className={styles.noTransAvail}>No Transactions Available</div>
+        )
     );
 }
 

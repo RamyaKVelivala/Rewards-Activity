@@ -11,9 +11,9 @@ describe("App Component", () => {
 
     it("should render transaction list when api responds", async () => {
         // test the mocked api output
-        getTransactionsList.mockResolvedValue({
-            results: [{ "id": 1, "amount": "20", "customerId": "1", "customerName": "Dave Warbrick", "merchantName": "walmart", "transactionDate": "10/1/2022" }]
-        });
+        getTransactionsList.mockResolvedValue(
+            [{ "id": 1, "amount": "20", "customerId": "1", "customerName": "Dave Warbrick", "merchantName": "walmart", "transactionDate": "10/1/2022" }]
+        );
 
         // Render the component
         await act(async () => {

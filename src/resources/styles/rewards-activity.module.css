@@ -3,7 +3,7 @@
 }
 
 .ddSection {
-    margin-left: 280px;
+    margin-left: 20%;
 }
 
 .customerLbl {
@@ -18,8 +18,8 @@
 }
 
 .calcBtnDiv {
-    margin-left: 60px;
-    margin-top: 20px;
+    margin-top: 5%;
+    margin-right: 12%;
 }
 
 .calcBtn {
@@ -34,6 +34,7 @@
 
 .rewardsTxt {
     padding: 20px;
+    margin-left: 12%;
 }
 
 .monthTxt,
@@ -43,7 +44,7 @@
     background-color: #0078cc;
     color: white;
     margin-top: 10px;
-    margin-left: 225px;
+    margin-left: 4%;
     width: 540px;
     border-radius: 12px;
 }
@@ -54,4 +55,10 @@
 
 .row {
     display: table-row;
+}
+
+.noTransAvail {
+    font-size: 18px;
+    font-weight: 600;
+    color: red;
 }
